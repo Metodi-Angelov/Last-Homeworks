@@ -1,7 +1,7 @@
 # The class's name is in snake case, because of the condition of the task.
 
 class sequence_repeat:
-    def __init__(self, sequence: str, number: int):
+    def __init__(self, sequence, number: int):
         self.sequence = sequence
         self.number = number
         self.length = len(sequence)
